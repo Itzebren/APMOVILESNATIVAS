@@ -1,4 +1,4 @@
-# hello_flutter
+# Practica 1
 
 # Actividad 1: Hello Android con Flutter
 
@@ -24,7 +24,7 @@ Esta aplicación fue desarrollada como una introducción al entorno de desarroll
 
 
 
-# Ejercicio 2: Explorador Espacial
+# Actividad 2: Navegación Creativa
 
 Esta es una aplicación Android diseñada para que el usuario navegue a través de una jerarquia. El objetivo principal es demostrar la implementación de Intents, transiciones personalizadas entre actividades y el diseño de interfaces.
 
