@@ -26,7 +26,7 @@ Esta aplicación fue desarrollada como una introducción al entorno de desarroll
 
 # Ejercicio 2: Explorador Espacial
 
-Esta es una aplicación Android educativa diseñada para que el usuario navegue a través de diferentes niveles del cosmos, desde la Vía Láctea hasta la superficie de la Luna. El objetivo principal es demostrar la implementación de Intents, transiciones personalizadas entre actividades y el diseño de interfaces mediante XML.
+Esta es una aplicación Android diseñada para que el usuario navegue a través de una jerarquia. El objetivo principal es demostrar la implementación de Intents, transiciones personalizadas entre actividades y el diseño de interfaces.
 
 ## Vista Previa
 
@@ -38,10 +38,10 @@ Esta es una aplicación Android educativa diseñada para que el usuario navegue 
 
 La aplicación se compone de cuatro pantallas principales con un diseño temático progresivo:
 
-1. **Vía Láctea (Inicio):** Pantalla de bienvenida con estética espacial y acceso al inicio del viaje.
+1. **Vía Láctea (Inicio):** Pantalla de bienvenida con estética espacial.
 2. **Sistema Solar:** Representación del Sol que permite avanzar hacia la Tierra.
-3. **Planeta Tierra:** Vista enfocada en el planeta que habilita la navegación hacia su satélite.
-4. **La Luna:** Destino final del recorrido con funcionalidad para reiniciar la experiencia regresando al inicio.
+3. **Planeta Tierra:** Vista enfocada en el planeta que habilita la navegación hacia la luna.
+4. **La Luna:** Destino final del recorrido con funcionalidad para reiniciar la experiencia.
 
 ## Tecnologías Utilizadas
 
@@ -54,13 +54,6 @@ La aplicación se compone de cuatro pantallas principales con un diseño temáti
     * androidx.activity:1.12.3
     * com.google.android.material:1.10.0
 
-## Navegación y Transiciones
-
-El proyecto emplea animaciones específicas para mejorar la fluidez de la experiencia de usuario:
-
-* **Fundido (Fade):** Aplicado en la transición entre la Vía Láctea y el Sistema Solar.
-* **Deslizamiento (Slide):** Utilizado para el movimiento entre el Sistema Solar y la Tierra.
-* **Gestión de Pila (Stack):** La actividad de la Luna incluye una lógica para limpiar la pila de actividades existentes, permitiendo un retorno limpio a la pantalla de inicio.
 
 ## Estructura de Archivos
 
